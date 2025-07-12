@@ -46,3 +46,19 @@ background: url(pacote-d013/imagens/frame-iphone.png) no-repeat;
     width: 269px;
     height: 471px;
 }
+#redes{
+text-align: right;
+
+}
+#redes img{
+width: 50px;
+margin: 10px;
+border-radius: 50%;
+box-sizing: border-box;
+}
+
+#redes img:hover{
+    border: 3px solid rgba(255, 255, 255, 0.584);
+    transform: translate(-3px, 3px);
+    transition: 0.5s;
+}
